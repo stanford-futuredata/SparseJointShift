@@ -49,7 +49,6 @@ For example, the following code snippet shows how to estimate performance on a g
 
 ```python
     from sees import Seesd
-
     SSEst = Seesd() # SEES-d
     result_est = SSEst.estimate_shift(source=source,
                          target=target,

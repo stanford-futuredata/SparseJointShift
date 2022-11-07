@@ -1,0 +1,13 @@
+{"shift_dims":{"Geography":1,"Gender":2,"HasCrCard":7,"Exited":10},
+"source_dist":{"France":{"Male":{"a":{"a":0.021,"a1":0.063},"a1":{"a":0.021,"a1":0.063}},"Female":{"a":{"a":0.021,"a1":0.063},"a1":{"a":0.021,"a1":0.063}}},"Spain":{"Male":{"a":{"a":0.063,"a1":0.021},"a1":{"a":0.063,"a1":0.021}},"Female":{"a":{"a":0.063,"a1":0.021},"a1":{"a":0.063,"a1":0.021}}},"Germany":{"Male":{"a":{"a":0.021,"a1":0.063},"a1":{"a":0.021,"a1":0.063}},"Female":{"a":{"a":0.021,"a1":0.063},"a1":{"a":0.021,"a1":0.063}}}},
+"target_dist":{"France":{"Male":{"a":{"a":0.1,"a1":0.05},"a1":{"a":0.1,"a1":0.05}},"Female":{"a":{"a":0.1,"a1":0.05},"a1":{"a":0.1,"a1":0.05}}},"Spain":{"Male":{"a":{"a":0.025,"a1":0.025},"a1":{"a":0.025,"a1":0.025}},"Female":{"a":{"a":0.025,"a1":0.025},"a1":{"a":0.025,"a1":0.025}}},"Germany":{"Male":{"a":{"a":0.025,"a1":0.025},"a1":{"a":0.025,"a1":0.025}},"Female":{"a":{"a":0.025,"a1":0.025},"a1":{"a":0.025,"a1":0.025}}}},
+"column_maps":{"Geography":1,"Gender":2,"HasCrCard":7,"Exited":10},
+"value_maps":{"Male":0,"Female":1,
+"France":0, "Germany":1,"Spain":2,
+		"Yes":1,"No":0,
+		"positive":1,"negative":0,
+		"Abroad":0,"Contact with confirmed":1,"Other":2,
+		"a":0,"a1":1,"a2":2,"a3":3,"a4":4,"a5":5,"a6":6},
+"datapath":"../data/bankchurn/bankchurn.csv",
+"shift":"BF_simu",
+"type":"3BF"}

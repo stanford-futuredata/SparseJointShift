@@ -1,0 +1,13 @@
+{"shift_dims":{"age_60_and_above":6,"corona_result":8},
+"source_dist":{"Yes":{"positive":0.2,"negative":0.3},"No":{"positive":0.2,"negative":0.3}},
+"target_dist":{"Yes":{"positive":0.4,"negative":0.1},"No":{"positive":0.25,"negative":0.25}},
+"column_maps":{"age_60_and_above":5,"corona_result":8,"gender":6},
+"value_maps":{"male":0,"female":1,
+		"Yes":1,"No":0,
+		"positive":1,"negative":0,
+		"a":0,
+		"a1":1,
+		"Abroad":0,"Contact with confirmed":1,"Other":2},
+"datapath":"../data/covid/corona_202201.csv",
+"shift":"BF_simu",
+"type":"BF"}

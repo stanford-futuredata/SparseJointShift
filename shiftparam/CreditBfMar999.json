@@ -1,0 +1,11 @@
+{"shift_dims":{"MARRIAGE":3,"default payment next month":23},
+"source_dist":{"a":{"a":0.222,"a1":0.111},"a1":{"a":0.222,"a1":0.111},"a2":{"a":0.111,"a1":0.223}},
+"target_dist":{"a":{"a":0.111,"a1":0.222},"a1":{"a":0.222,"a1":0.111},"a2":{"a":0.16,"a1":0.173}},
+"source_distb1":{"a":{"a":0.166,"a1":0.166},"a1":{"a":0.166,"a1":0.168},"a2":{"a":0.166,"a1":0.168}},
+"target_distb2":{"a":{"a":0.3,"a1":0.1},"a1":{"a":0.1,"a1":0.3},"a2":{"a":0.1,"a1":0.1}},
+"column_maps":{"MARRIAGE":3,"default payment next month":23},
+"value_maps":{
+		"a":0,"a1":1,"a2":2,"a3":3,"a4":4,"a5":5,"a6":6},
+"datapath":"../data/credit/credit.csv",
+"shift":"BF_simu",
+"type":"BF"}

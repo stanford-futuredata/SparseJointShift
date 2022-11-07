@@ -52,9 +52,9 @@ For example, the following code snippet shows how to estimate performance on a g
 
     SSEst = Seesd() # SEES-d
     SSEst.set_params(eta = 0.01,                                                    				 kernel="BF")
-    result_est = SSEst.estimate_shift(source=source[:,0:-1],
-                         target=target[:,0:-1],
-                         source_y=source[:,-1],
+    result_est = SSEst.estimate_shift(source=source,
+                         target=target,
+                         source_y=source_y,
                          source_yhat=source_yhat,
                          target_yhat=target_yhat,
                          source_proba = source_proba,
@@ -64,7 +64,7 @@ For example, the following code snippet shows how to estimate performance on a g
 
 
 ```
-It returns (i) the estimated shifted features, and (ii) estimated performance gap (accuracy on target-accuracy on source).
+Here, ```source``` and ```target``` are the feature vectors from the source and target data, ```source_y``` is the label on the source data. ```source_yhat, source_proba, target_yhat``` and ```target_proba``` are the predicted labels and label confidences produced by the model on the source and target data, respectively.  It returns (i) the estimated shifted features, and (ii) estimated performance gap (accuracy on target-accuracy on source).
 
 
 More examples can be found in the ```examples.py```.

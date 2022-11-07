@@ -51,7 +51,6 @@ For example, the following code snippet shows how to estimate performance on a g
     from sees import Seesd
 
     SSEst = Seesd() # SEES-d
-    SSEst.set_params(eta = 0.01,                                                    				 kernel="BF")
     result_est = SSEst.estimate_shift(source=source,
                          target=target,
                          source_y=source_y,

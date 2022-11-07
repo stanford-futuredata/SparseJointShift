@@ -42,7 +42,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-The core performance estimation method is implemented in ```sees.py```. To use it for performance estimation on unlabeled source datasets, one can create a ```sees``` object, and then invoke the ```estimateperformance()``` method.
+The core performance estimation method is implemented in ```sees.py```. To use it for performance estimation on unlabeled target datasets, one can create a ```sees``` object, and then invoke the ```estimate_shift()``` method.
 
 For example, the following code snippet shows how to estimate performance on a given target dataset 
 

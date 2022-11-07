@@ -9,7 +9,7 @@
 
 This is the official implementation for the NeurIPS paper:
 
-Lingjiao Chen, Matei Zaharia, James Zou, [Estimating and Explaining Model Performance When Both Covariates and Labels Shift](https://arxiv.org/abs/2006.07512), NeurIPS 2022.
+Lingjiao Chen, Matei Zaharia, James Zou, [Estimating and Explaining Model Performance When Both Covariates and Labels Shift](https://arxiv.org/abs/2209.08436), NeurIPS 2022.
 
 
 ## Table of Contents
